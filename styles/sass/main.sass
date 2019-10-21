@@ -1,0 +1,170 @@
+@import "vars"
+@import "most"
+@import "offer"
+@import "anim"
+
+
+// =============================>
+// header
+// <=============================
+.header__main
+  height: 4.66rem
+  position: relative
+.header__logo
+  position: absolute
+  bottom: 0
+  left: 0
+  width: 2.6rem
+  height: 0.72rem
+  display: flex
+  align-items: center
+  background-color: $txt_bg
+  justify-content: center
+  z-index: 2
+  h1
+    font-size: 0.35rem
+    margin: 0
+
+.header__content
+  background-image: url(../../img/header__bg.png)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: top center
+  padding: .7rem .3rem 
+    top: 1.6rem
+  margin-top: -1.2rem
+  z-index: 1
+  position: relative
+
+.header__about
+  font-size: 0.24rem
+  line-height: 0.33rem
+
+.header__builets
+  display: flex
+  flex-wrap: wrap
+.header__item
+  height: 1.57rem
+  padding: 0 .12rem
+    right: 0.1rem
+  width: 50%
+  box-sizing: border-box
+  font-size: 0.13rem
+  line-height: 0.21rem
+  display: flex
+  align-items: center
+  justify-content: center
+  span
+    color: $accent
+  &:nth-child(2)
+    background-color: rgba(37, 37, 37, .5)
+  &:nth-child(3)
+    background-color: rgba(0, 0, 0, .5)
+
+// =============================>
+// price
+// <=============================
+.price
+  display: flex
+  align-items: center
+  font-size: 0.36rem
+  color: $accent
+  font-weight: bold
+  &__old
+    font-weight: normal
+    font-size: 0.26rem
+    opacity: 0.6
+    padding-bottom: 0.1rem
+    padding-left: 0.2rem
+
+.sect1
+  padding: .7rem 0
+  p
+    color: $dark
+p.sect1__footer
+  background-color: $txt_bg
+  color: #fff
+  padding: .24rem .3rem
+  line-height: 0.21rem
+  margin-top: -1rem
+  z-index: 1
+  position: relative
+  margin-bottom: 0
+.txt-wrapper
+  background-image: url(../../img/text__wrapper.png)
+  background-size: cover
+.sect2
+  background-image: url(../../img/sect2__bg.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: bottom center
+.sect2__top
+  background-color: $txt_bg
+  padding: .3rem
+  margin-bottom: 0
+.sect2__bot
+  margin-top: 0.44rem
+  padding-right: 0.15rem
+
+.sect3__top
+  padding: .28rem .22rem
+  background-color: $txt_bg
+  margin: 0
+    bottom: 0.1rem
+
+.sect3__grid
+  display: flex
+  justify-content: space-between
+  p
+    font-size: 0.13rem
+    line-height: 0.21rem
+
+.sect3__left,
+.sect3__right
+  width: calc(50% - 0.05rem)
+
+.sect3-item
+  p
+    margin: 0
+    padding: 0 .2rem
+    display: flex
+    align-items: center
+    justify-content: center
+
+p.sect3-item__p1
+  height: 1.2rem
+  margin-bottom: 0.1rem
+p.sect3-item__p2
+  background-color: #424242
+  height: 1.6rem
+p.sect3-item__p3
+  height: 1.35rem
+  background-color: #424242
+p.sect3-item__p4
+  height: 100%
+  min-height: 1.32rem
+   
+.sect4
+  background-image: url(../../img/sect4_bg.png)
+  background-size: cover
+  background-repeat: no-repeat
+
+.sect4__item
+  display: flex
+  position: relative
+  height: 1.64rem
+  margin-bottom: 0.1rem
+  p
+    font-size: 0.16rem
+    margin: 0
+  span
+    position: absolute
+  &:nth-child(1)
+    background-color: #252525
+    img
+      margin-left: auto
+      margin-top: auto
+      height: calc(100% - 0.2rem)
+    p
+      padding: 0.3rem
+  
