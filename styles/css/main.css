@@ -1,29 +1,3 @@
-::-webkit-input-placeholder {
-  color: #fff;
-}
-
-:-ms-input-placeholder {
-  color: #fff;
-}
-
-::-ms-input-placeholder {
-  color: #fff;
-}
-
-::placeholder {
-  color: #fff;
-}
-
-::-moz-selection {
-  background-color: #ddb89f;
-  color: #fff;
-}
-
-::selection {
-  background-color: #ddb89f;
-  color: #fff;
-}
-
 html {
   font-size: 26.666666vw;
 }
