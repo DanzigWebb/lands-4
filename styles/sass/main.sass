@@ -154,17 +154,172 @@ p.sect3-item__p4
   position: relative
   height: 1.64rem
   margin-bottom: 0.1rem
+  z-index: 1
   p
     font-size: 0.16rem
+    line-height: 0.24rem
     margin: 0
+    
   span
     position: absolute
+    height: 0.68rem
+    display: flex
+    align-items: center
+    justify-content: center
+    img
+      height: 0.68rem
   &:nth-child(1)
     background-color: #252525
-    img
-      margin-left: auto
-      margin-top: auto
+    .sect4__img
+      position: absolute
+      right: 0
+      bottom: 0
       height: calc(100% - 0.2rem)
     p
       padding: 0.3rem
+    span
+      bottom: 0
+      left: 0.6rem
+  &:nth-child(2)
+    background-color: #424242
+    .sect4__img
+      position: absolute
+      left: 0
+      top: 0
+      bottom: 0
+      height: 100%
+    p
+      padding: 0.3rem
+      margin-left: auto
+      text-align: right
+    span
+      bottom: 0
+      right: .7rem
+      line-height: 0.8
+
+  &:nth-child(3)
+    background-color: #252525
+    .sect4__img
+      position: absolute
+      right: 0
+      bottom: 0
+      height: calc(100% - 0.2rem)
+    p
+      padding: 0.3rem
+      margin-top: auto
+    span
+      left: 0.25rem
+      top: 0.2rem
+  &:nth-child(4)
+    background-color: #fff
+    .sect4__img
+      position: absolute
+      left: 0.1rem
+      bottom: 0
+      height: calc(100% - 0.15rem)
+    p
+      padding: 0.3rem
+        top: 0.4rem
+      color: $dark
+      margin-left: auto
+    span
+      bottom: 0
+      right: 0.75rem
+  &:nth-child(5)
+    background-color: #424242
+    .sect4__img
+      position: absolute
+      right: 0
+      bottom: 0
+      height: 100%
+    p
+      padding: 0.3rem
+    span
+      bottom: 0
+      left: 0.85rem
+
   
+.slide__header
+  background-color: #424242
+  padding: .1rem .25rem
+  display: flex
+  align-items: center
+  font-weight: bold
+  margin-bottom: 0.1rem
+  img
+    flex-shrink: 0
+    margin-right: 0.3rem
+.slider__content
+  background: #252525
+  line-height: 0.21rem
+  padding: .3rem .22rem
+.pagination-wrap > .swiper-pagination
+  position: static
+
+.pagination-wrap 
+  .swiper-pagination-bullet
+    width: 0.4rem
+    height: 0.1rem
+    background: #ddb89f
+    border-radius: 0
+    margin: 0 .05rem
+    &-active
+      width: 0.7rem
+      background: #a9836c
+
+.sect6
+  background: #141414
+
+.sect6__content
+  background-color: #252525
+  padding: .4rem
+    right: .2rem
+.sect6__item
+  display: flex
+  align-items: center
+  margin-bottom: 0.3rem
+  p
+    margin: 0
+  &:nth-child
+    margin-bottom: 0
+  img
+    flex-shrink: 0
+    width: 0.5rem
+    margin-right: 0.3rem
+  &:nth-child(2)
+    img
+      padding: 0 .08rem
+      box-sizing: border-box
+
+.sect7
+  padding: 0
+  background: #141414
+  img
+    width: 100%
+.sect7__pag
+  margin-top: 0.2rem
+  .swiper-pagination-bullet
+    background-color: #ddb89f
+    opacity: 1
+    &-active
+      background-color: #a9836c
+
+.footer
+  padding-top: 0.4rem
+  padding-bottom: .7rem
+  background: #141414
+.footer__logo
+  width: 2.6rem
+  height: 0.72rem
+  display: flex
+  align-items: center
+  background-color: $txt_bg
+  justify-content: center
+  z-index: 2
+  h1
+    font-size: 0.35rem
+    margin: 0
+
+.footer__content
+  padding: .3rem .3rem
+    bottom: 0
